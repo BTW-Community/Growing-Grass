@@ -1,29 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "growing_grass",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Growing Grass",
+  "description": "This addon allows for grass and flowers to slowly regrow over time. Configurable!",
   "authors": [
-    "Me!"
+    "TheWinABagel"
   ],
   "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+    "homepage": "https://github.com/TheWinABagel/Growing-Grass",
+    "sources": "https://github.com/TheWinABagel/Growing-Grass"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ],
     "btw:addon": [
-      "btw.community.example.ExampleAddon"
+      "dev.bagel.growing_grass.GrowingGrassAddon"
     ]
-  },
-  "custom": {
-    "btw:addon_prefix": "EX"
   },
   "mixins": [
     "modid.mixins.json"
